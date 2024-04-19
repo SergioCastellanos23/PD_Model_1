@@ -21,15 +21,15 @@ Desempeño el rol como Consultor de Riesgo y Ciencia de datos dentro de 3PI, LLC
 - Análisis de estadística descriptiva e inferencial para la calidad e importancia de las variables para su selección y modelado con Matplotlib, Statsmodels, Sckit-Learn, Pengouin. 
 - Colaboración en la creación del modelo.
 - Desarrollo de Modelos Tradicionales y Modelos Machine Learning (Modelos parsimoniosos).
---Chi Square Test, Correlaciones, Regresión Logística, Regresión Lineal, Information Value, Variable Clustering, Decision Trees, Random Forest, XGBoost, Lasso, ElasticNet, Ridge, Forward, Backward, Stepwise.
+- Chi Square Test, Correlaciones, Regresión Logística, Regresión Lineal, Information Value, Variable Clustering, Decision Trees, Random Forest, XGBoost, Lasso, ElasticNet, Ridge, Forward, Backward, Stepwise.
 - Estimación de Probability of Default y actualmente con Early Probability of Default. 
 - Creación de Scorecards generando una precisión de modelo aceptable y reduciendo significativamente el riesgo.
 - Comunicar insights, hallazgos y conclusiones derivadas del proceso (Data Storytelling).
 
 ### CURSOS
--Intermediate Machine Learning | Kaggle
--Python
--PostgreSQL
--Excel
--PowerBI (Cursando)
--PySpark
+- Intermediate Machine Learning | Kaggle
+- Python
+- PostgreSQL
+- Excel
+- PowerBI (Cursando)
+- PySpark (Proximamente)
