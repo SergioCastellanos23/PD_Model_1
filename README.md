@@ -41,5 +41,6 @@ Desempeño el rol como Consultor de Riesgo y Ciencia de datos dentro de 3PI, LLC
 
 ## PREDICT LIKELIHOOD
 
-- Mi primer proyecto dentro de 3PI, LLC. Fue un proyecto con datos limitados, esto fue un reto porque al ser tan limitado debía evitar el overtraining del modelo.:
-- Por ello, derivamos a tomar medidas muy creativas para evitar este detalle. Por ende, se tomó la decisión de evaluar el rendimiento de las variables en cada modelo estadistico. 
+- Mi primer proyecto dentro de 3PI, LLC. Fue un proyecto con datos limitados, esto fue un reto porque al ser tan limitado debía evitar el overfitting del modelo.:
+- Por ello, derivamos a tomar medidas muy creativas para evitar este detalle. Por ende, se tomó la decisión de evaluar el rendimiento de las variables en cada modelo estadistico.
+- Utilizamos Chi Square Test, Correlaciones (Spearman, Hoeffding), Information Value, Random Forest, Decision Trees, XGBoost, entre otros.
