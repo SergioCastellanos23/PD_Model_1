@@ -1,5 +1,8 @@
 # SERGIO ANTONIO CASTELLANOS TORRES
 
+Este portafolio es creado con fines profesionales, medir mi capacidad como Consultor de riesgo y ciencia de datos. Algunos proyectos son de mi profesión (por temas confidenciales fueron modificados).
+Algunos son hechos por mi propia cuenta y algunos con ayuda de ChatGPT (Hay que sacarle provecho a las nuevas IA).
+
 ## ABOUT ME
 - sergio.castellanost23@gmail.com
 - LinkedIn Profile: www.linkedin.com/in/sergio-antonio-castellanos-torres-828946126
@@ -34,3 +37,9 @@ Desempeño el rol como Consultor de Riesgo y Ciencia de datos dentro de 3PI, LLC
 - Excel
 - PowerBI (Cursando)
 - PySpark (Proximamente)
+
+
+## PREDICT LIKELIHOOD
+
+- Mi primer proyecto dentro de 3PI, LLC. Fue un proyecto con datos limitados, esto fue un reto porque al ser tan limitado debía evitar el overtraining del modelo.:
+- Por ello, derivamos a tomar medidas muy creativas para evitar este detalle. Por ende, se tomó la decisión de evaluar el rendimiento de las variables en cada modelo estadistico. 
