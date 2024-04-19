@@ -25,6 +25,7 @@ Desempeño el rol como Consultor de Riesgo y Ciencia de datos dentro de 3PI, LLC
 - Estimación de Probability of Default y actualmente con Early Probability of Default. 
 - Creación de Scorecards generando una precisión de modelo aceptable y reduciendo significativamente el riesgo.
 - Comunicar insights, hallazgos y conclusiones derivadas del proceso (Data Storytelling).
+- Optimización de modelos para usando GridSearchCV
 
 ### CURSOS
 - Intermediate Machine Learning | Kaggle
