@@ -1,9 +1,7 @@
 # SERGIO ANTONIO CASTELLANOS TORRES
 
 ##ABOUT ME
-sergio.castellanost23@gmail.com
-' '
-LinkedIn Profile: www.linkedin.com/in/sergio-antonio-castellanos-torres-828946126
+sergio.castellanost23@gmail.com | LinkedIn Profile: www.linkedin.com/in/sergio-antonio-castellanos-torres-828946126
 
 ### Consultor de riesgo - Ciencia de Datos | Credit Risk Analysis| Agribusiness
 
