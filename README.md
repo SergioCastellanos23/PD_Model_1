@@ -15,9 +15,9 @@ Algunos son hechos por mi propia cuenta y algunos con ayuda de ChatGPT (Hay que 
 ### WORK EXPERIENCE 
  
 Consultor de riesgo y Ciencia de Datos 
-- 3PI, LLC Services · Jornada completa3PI, LLC Services · ene. 2023 - actualidad ·
+- 3PI, LLC · ene. 2023 - actualidad ·
 
-Desempeño el rol como Consultor de Riesgo y Ciencia de datos dentro de 3PI, LLC, en el área de Services (Project & Program Management). Una de mis funciones principales es la creación de modelos estadísticos y predictivos parsimoniosos para el sector de riesgo crediticio incluyendo Scorecards, dicho análisis se diseña con limitados o grandes volúmenes de datos dependiendo del rendimiento de las variables en el modelado buscando equilibrio y predicción, con ello mejorando la interpretabilidad.
+Desempeño el rol como Consultor de Riesgo y Ciencia de Datos dentro de 3PI, LLC, en el área de Services (Project & Program Management). Una de mis funciones principales es la creación de modelos estadísticos y predictivos parsimoniosos para el sector de riesgo crediticio incluyendo Scorecards, dicho análisis se diseña con limitados o grandes volúmenes de datos dependiendo del rendimiento de las variables en el modelado buscando equilibrio y predicción, con ello mejorando la interpretabilidad.
 
 - Limpieza y transformación de los datos.
 - Detección de Outliers, Impute data, Categorical variables.
