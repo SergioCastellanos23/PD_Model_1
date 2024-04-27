@@ -1,4 +1,4 @@
-SERGIO ANTONIO CASTELLANOS TORRES
+# SERGIO ANTONIO CASTELLANOS TORRES
 
 Este portafolio es creado con fines profesionales, medir mi capacidad como Consultor de riesgo y ciencia de datos. 
 Estoy entusiasmado de aportar a este mundo del data science y al igual me encantaría tener retroalimentación de profesionales en el tema.
