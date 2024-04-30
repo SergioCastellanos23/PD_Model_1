@@ -54,6 +54,7 @@ Desempeño el rol como Consultor de Riesgo y Ciencia de Datos dentro de 3PI, LLC
 - El modelo se ejecutó mediante Regresión Logística, por su rendimiento en los 5 CV, un mean square error de los más bajos dentro de la selección de modelos. Con un accuracy mayor a 75%, aceptable para la cantidad limitada de datos.
 - Con los coeficientes se utilizó la formula de regresión logistica, multiplicando el coeficiente por el valor otorgado. Las variables que mayor repercuten en son CHK_ACCT, DURATION, USED_CAR y GUARANTOR.
 - Se creo un Scorecard para fines de otorgamiento de crédito a nuevos clientes con las mejores variables.
+- Como validación del modelo se utilizo Gini, ROC Curve y KS, dando como resultado un 0.77 ROC AUC, KS= 48.59% y Gini de 0.55, considerandose aceptable en la predicción.
 
 ## Credit Cars
 
