@@ -1,4 +1,5 @@
 # SERGIO ANTONIO CASTELLANOS TORRES
+#### Consultor de riesgo - Ciencia de Datos | Credit Risk Analysis| Agribusiness
 
 Este portafolio es creado con fines profesionales, medir mi capacidad como Consultor de riesgo y ciencia de datos. 
 Estoy entusiasmado de aportar a este mundo del data science y al igual me encantaría tener retroalimentación de profesionales en el tema.
@@ -6,7 +7,6 @@ Estoy entusiasmado de aportar a este mundo del data science y al igual me encant
 - Mail: sergio.castellanost23@gmail.com
 - LinkedIn Profile: www.linkedin.com/in/sergio-antonio-castellanos-torres-828946126
 
-### Consultor de riesgo - Ciencia de Datos | Credit Risk Analysis| Agribusiness
 
 ## EDUCACIÓN 
 - Agricultural Business | Universidad Veracruzana | 2021
