@@ -13,18 +13,18 @@ Estoy entusiasmado de aportar a este mundo del data science y al igual me encant
 
 ## EXPERIENCIA 
  
-Consultor de riesgo y Ciencia de Datos 
+### Consultor de riesgo y Ciencia de Datos 
 - 3PI, LLC · ene. 2023 - actualidad ·
 
 Desempeño el rol como Consultor de Riesgo y Ciencia de Datos dentro de 3PI, LLC, en el área de Services (Project & Program Management). Una de mis funciones principales es la creación de modelos estadísticos y predictivos parsimoniosos para el sector de riesgo crediticio incluyendo Scorecards, dicho análisis se diseña con limitados o grandes volúmenes de datos dependiendo del rendimiento de las variables en el modelado buscando equilibrio y predicción, con ello mejorando la interpretabilidad.
 
-•	Limpieza, Transformación y Visualización de Datos: Utilizo herramientas como Numpy, Pandas y Matplotlib para realizar la limpieza y transformación de datos, así como visualizaciones como histogramas y boxplots.
-•	Análisis Estadístico Descriptivo e Inferencial: Empleo librerías como Matplotlib, Statsmodels, Scikit-Learn y Pengouin para realizar análisis estadístico descriptivo e inferencial, que incluyen pruebas como Chi Square, correlaciones y gráficos de dispersión, así como pruebas t.
-•	Colaboración en la Creación de Modelos: Trabajo en equipo para identificar variables relevantes y desarrollar modelos predictivos, interpretando los resultados obtenidos.
-•	Selección de Variables y Modelado Predictivo: Utilizo una variedad de modelos como Regresión Logística, Regresión Lineal, Árboles de Decisión, Random Forest, XGBoost, Lasso, ElasticNet y Ridge, así como técnicas de selección de variables como Forward y Backward para optimizar el rendimiento del modelo.
-•	Estimación de Probability of Default (PD): Estimo la Probabilidad de Incumplimiento (PD) y la Early Probability of Default utilizando las mejores variables y modelos disponibles, asegurando la creación de modelos parsimoniosos y efectivos.
-•	Creación de Scorecards: Utilizo librerías como Binning y Scorecard para desarrollar sistemas de puntuación de riesgo, validando los modelos utilizando métricas como Gini, ROC Curve y KS.
-•	Consulta y Captura de Datos: Realizo consultas y capturas de datos utilizando bases de datos como PostgreSQL para acceder a la información necesaria en mis proyectos.
+- Limpieza, Transformación y Visualización de Datos: Utilizo herramientas como Numpy, Pandas y Matplotlib para realizar la limpieza y transformación de datos, así como visualizaciones como histogramas y boxplots.
+- Análisis Estadístico Descriptivo e Inferencial: Empleo librerías como Matplotlib, Statsmodels, Scikit-Learn y Pengouin para realizar análisis estadístico descriptivo e inferencial, que incluyen pruebas como Chi Square, correlaciones y gráficos de dispersión, así como pruebas t.
+- Colaboración en la Creación de Modelos: Trabajo en equipo para identificar variables relevantes y desarrollar modelos predictivos, interpretando los resultados obtenidos.
+- Selección de Variables y Modelado Predictivo: Utilizo una variedad de modelos como Regresión Logística, Regresión Lineal, Árboles de Decisión, Random Forest, XGBoost, Lasso, ElasticNet y Ridge, así como técnicas de selección de variables como Forward y Backward para optimizar el rendimiento del modelo.
+- Estimación de Probability of Default (PD): Estimo la Probabilidad de Incumplimiento (PD) y la Early Probability of Default utilizando las mejores variables y modelos disponibles, asegurando la creación de modelos parsimoniosos y efectivos.
+- Creación de Scorecards: Utilizo librerías como Binning y Scorecard para desarrollar sistemas de puntuación de riesgo, validando los modelos utilizando métricas como Gini, ROC Curve y KS.
+- Consulta y Captura de Datos: Realizo consultas y capturas de datos utilizando bases de datos como PostgreSQL para acceder a la información necesaria en mis proyectos.
 
 ### CURSOS
 - Intermediate Machine Learning | Kaggle
