@@ -41,7 +41,7 @@ Desempeño el rol como Consultor de Riesgo y Ciencia de Datos dentro de 3PI, LLC
 ## PREDICT LIKELIHOOD
 
 - El proyecto denominado "Predict Likelihood" fue un proyecto con datos limitados:
-
+  
 - Por ello, derivamos a tomar medidas muy creativas. Por ende, se tomó la decisión de evaluar el rendimiento de las variables en cada modelo.
 - Utilizamos Chi Square Test, Correlación (Spearman), Information Value, Random Forest, Decision Trees, XGBoost, entre otros.
 - Para la detección de outliers utilizamos el rango intercuantil, sin embargo, ampliamos el umbral a 3.5 veces (valores extremos). A su vez Histogramas y graficos de cajas para analizar la distribución de los datos y considerar en si eliminar los valores atipicos detectados anteriormente.
@@ -54,3 +54,12 @@ Desempeño el rol como Consultor de Riesgo y Ciencia de Datos dentro de 3PI, LLC
 - El modelo se ejecutó mediante Regresión Logística, por su rendimiento en los 5 CV, un mean square error de los más bajos dentro de la selección de modelos. Con un accuracy mayor a 75%, aceptable para la cantidad limitada de datos.
 - Con los coeficientes se utilizó la formula de regresión logistica, multiplicando el coeficiente por el valor otorgado. Las variables que mayor repercuten en son CHK_ACCT, DURATION, USED_CAR y GUARANTOR.
 - Se creo un Scorecard para fines de otorgamiento de crédito a nuevos clientes con las mejores variables.
+
+## Credit Cars
+
+- Un dataset con más de 65,000 aplicantes para evaluar la probabilidad de morosidad e igual, aplicar un Scorecard:
+ 
+- Notifiqué algunas tendencias que fueron de alto impacto y que se deberían tomar en cuenta.
+- Demasiados datos nulos y por ende, tomar la decisión de imputar algunos datos.
+- Transformamos variables por categorias, por ejemplo, 'STATE' fue dividida por zonas 'NORTH_STATES','MIDWEST_STATES','SOUTH_STATES',WEST_STATES' para simplificar nuestros datos, ya que al realizar nuestros analisis sería complicado analizar su importancia.
+- 
