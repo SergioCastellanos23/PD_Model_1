@@ -30,7 +30,7 @@ Desempeño el rol como Consultor de Riesgo y Ciencia de Datos dentro de 3PI, LLC
 - Consultas en PostgreSQL
 
 ### CURSOS
--- Intermediate Machine Learning | Kaggle
+- Intermediate Machine Learning | Kaggle
 - Python
 - PostgreSQL
 - Excel
