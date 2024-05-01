@@ -16,15 +16,13 @@ Estoy entusiasmado de aportar a este mundo del data science y al igual me encant
 ### Consultor de riesgo y Ciencia de Datos 
 - 3PI, LLC · ene. 2023 - actualidad ·
 
-Desempeño el rol como Consultor de Riesgo y Ciencia de Datos dentro de 3PI, LLC, en el área de Services (Project & Program Management). Una de mis funciones principales es la creación de modelos estadísticos y predictivos parsimoniosos para el sector de riesgo crediticio incluyendo Scorecards, dicho análisis se diseña con limitados o grandes volúmenes de datos dependiendo del rendimiento de las variables en el modelado buscando equilibrio y predicción, con ello mejorando la interpretabilidad.
+Desempeño el rol como Consultor de Riesgo y Ciencia de datos dentro de 3PI, LLC, en el área de Services (Project & Program Management) dentro de todas las fases de desarrollo de modelos.
 
-- Limpieza, Transformación y Visualización de Datos: Utilizo herramientas como Numpy, Pandas y Matplotlib para realizar la limpieza y transformación de datos, así como visualizaciones como histogramas y boxplots.
-- Análisis Estadístico Descriptivo e Inferencial: Empleo librerías como Matplotlib, Statsmodels, Scikit-Learn y Pengouin para realizar análisis estadístico descriptivo e inferencial, que incluyen pruebas como Chi Square, correlaciones y gráficos de dispersión, así como pruebas t.
-- Colaboración en la Creación de Modelos: Trabajo en equipo para identificar variables relevantes y desarrollar modelos predictivos, interpretando los resultados obtenidos.
-- Selección de Variables y Modelado Predictivo: Utilizo una variedad de modelos como Regresión Logística, Regresión Lineal, Árboles de Decisión, Random Forest, XGBoost, Lasso, ElasticNet y Ridge, así como técnicas de selección de variables como Forward y Backward para optimizar el rendimiento del modelo.
-- Estimación de Probability of Default (PD): Estimo la Probabilidad de Incumplimiento (PD) y la Early Probability of Default utilizando las mejores variables y modelos disponibles, asegurando la creación de modelos parsimoniosos y efectivos.
-- Creación de Scorecards: Utilizo librerías como Binning y Scorecard para desarrollar sistemas de puntuación de riesgo, validando los modelos utilizando métricas como Gini, ROC Curve y KS.
-- Consulta y Captura de Datos: Realizo consultas y capturas de datos utilizando bases de datos como PostgreSQL para acceder a la información necesaria en mis proyectos.
+- Apoyo al equipo de modelado en la limpieza, transformación y visualización de datos con Pandas, Numpy, Matplotlib y Seaborn en la detección de valores atípicos, imputación de datos y transformación o agrupación de variables categóricas para la construcción de modelos.
+- Proporcionar insights con análisis de estadística descriptiva e inferencial en el proceso de selección de variables con un enfoque hacia la construcción de un modelo parsimonioso y monotónico (Information Value, Correlaciones, Chi Squared Test, Variable Clustering) con OptimalBinning, Matplotlib, Statsmodels, VarClusHi.
+- Construcción de modelos de Credit Score (Logistic Regression, Decision Trees, Random Forest Classifier, XGB Classifier, AdaBoosClassifier) para incrementar la aprobación de solicitudes en el sector de crédito, manteniendo el riesgo de incumplimiento y aumentando la rentabilidad.
+- Consultar y capturar datos utilizando bases de datos como PostgreSQL para acceder a la información necesaria en mis proyectos.
+
 
 ### CURSOS
 - Intermediate Machine Learning | Kaggle
