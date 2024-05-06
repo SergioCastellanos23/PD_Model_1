@@ -4,7 +4,7 @@
 Este portafolio es creado con fines profesionales, medir mi capacidad como Consultor de riesgo y ciencia de datos. 
 Estoy entusiasmado de aportar a este mundo del data science y al igual me encantaría tener retroalimentación de profesionales en el tema.
 
-- Mail📧: sergio.castellanost23@gmail.com
+- Mail 📧: sergio.castellanost23@gmail.com
 - LinkedIn Profile: www.linkedin.com/in/sergio-antonio-castellanos-torres-828946126
 
 
@@ -33,7 +33,7 @@ Desempeño el rol como Consultor de Riesgo y Ciencia de datos dentro de 3PI, LLC
 - PySpark (Proximamente)
 
 
-## PREDICT LIKELIHOOD📊💻
+## PREDICT LIKELIHOOD 📊💻
 
 - El proyecto denominado "Predict Likelihood" fue un proyecto con datos limitados:
   
