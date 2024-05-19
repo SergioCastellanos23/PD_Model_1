@@ -61,9 +61,8 @@ El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad d
 ## AGG, corp.
 
 ### Mejoras de eficiencia
-- **Módulos para automatización de tareas**: limpieza de datos, detección de valores atípicos y transformación de datos optimizados.
+- **Módulos para automatización de tareas**: limpieza de datos, detección de valores atípicos.
 - **Tiempo de procesamiento reducido**: Disminución significativa del tiempo dedicado a tareas rutinarias.
-- **Análisis bivariado y multivariado**: procesos de selección de variables mejorados mediante estadística inferencial.
 
 ## Conclusión
 El proyecto "Predict Likelihood" superó con éxito los desafíos de los datos limitados mediante una evaluación integral de variables, una selección rigurosa de modelos y un uso eficaz de técnicas de transformación de datos. El desarrollo de un cuadro de mando y métricas de validación indican un enfoque sólido para predecir las probabilidades de incumplimiento, proporcionando una herramienta valiosa para la evaluación del riesgo crediticio. La implementación de módulos automatizados en AGG ejemplifica aún más el enfoque del proyecto en la eficiencia y precisión en el análisis de datos.
