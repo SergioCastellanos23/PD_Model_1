@@ -52,7 +52,7 @@ El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad d
 ### Creación de cuadro de mando
 - Desarrollé un cuadro de mando para la evaluación crediticia de nuevos clientes utilizando las variables más predictivas.
 
-## Conjunto de datos de crédito para vehiculos
+## Credit Cars
 
 ### Descripción general del conjunto de datos
 - Gran conjunto de datos con más de 65.000 solicitantes.
