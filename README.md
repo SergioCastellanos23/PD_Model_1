@@ -18,9 +18,4 @@
 
 ## Credit Cars
 
-- Un dataset con más de 65,000 aplicantes para evaluar la probabilidad de morosidad e igual, aplicar un Scorecard:
- 
-- Notifiqué algunas tendencias que fueron de alto impacto y que se deberían tomar en cuenta.
-- Demasiados datos nulos y por ende, tomar la decisión de imputar algunos datos.
-- Transformamos variables por categorias, por ejemplo, 'STATE' fue dividida por zonas 'NORTH_STATES', 'MIDWEST_STATES', 'SOUTH_STATES', 'WEST_STATES' para simplificar nuestros datos, ya que al realizar nuestros analisis sería complicado analizar su importancia.
-- 
+- Un dataset con más de 65,000 aplicantes para evaluar la probabilidad de morosidad e igual, aplicar un Scorecard.
