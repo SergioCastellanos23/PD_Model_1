@@ -1,21 +1,69 @@
-## PREDICT LIKELIHOOD 📊💻
+# Proyectos
 
-- El proyecto denominado "Predict Likelihood" fue un proyecto con datos limitados:
-  
-- Por ello, derivamos a tomar medidas muy creativas. Por ende, se tomó la decisión de evaluar el rendimiento de las variables en cada modelo.
-- Utilizamos Chi Square Test, Correlación (Spearman), Information Value, Random Forest, Decision Trees, XGBoost, entre otros.
-- Para la detección de outliers utilizamos el rango intercuantil, sin embargo, ampliamos el umbral a 3.5 veces (valores extremos). A su vez Histogramas y graficos de cajas para analizar la distribución de los datos y considerar en si eliminar los valores atipicos detectados anteriormente.
-- En conjunto analizamos los graficos de disperción con linea de regresión podemos observar la tendencia hacia DEFAULT, por ejemplo, DURATION, mientras mayor sea el termino, mayor la probabilidad de incumplimiento.
-- En la variable AGE decidimos mantener solo la población menor a 67. Considerando a la población mayor a 67 como de "alto riesgo".
-- Medimos el rendimiento de las variables en cada proceso (Chi Square, Correlación, Variable Clustering, Information Value), Forward, Backward y Stepwise Selection. Y posteriormente utilizando GridSearchCV para encontrar los mejores hiperparametros por cada modelo (Logistic Regression, Random Forest Classifier, XGB Classifier, Gradient Boosting Classifier, Decision Tree Classifier, AdaBoost Classifier y aprovechar al máximo el proceso de selección de variables, además Lasso, Ridge y ElasticNet.
-- Posteriormente, la selección del modelo se dividió la muestra en Train y Test (70/30), utilizando los hiperparametros del paso de Variable Selection. Seleccionamos Logistic Regression.
-- Transformamos los datos en ciertas variables (analizando los datos proporcionados por WOE y recrear monoticidad en los datos). 
-- Al ejecutar el rendimiento de las variables en los modelos de ML se logró apreciar cuales variables son fuertes predictores y su impacto constante en cada modelo, dichas variables fueron CHK_ACCT, DURATION. Los  demás predictores se evaluaron con su rendimiento en los diferentes modelos y los diferentes Test como fue Information Value,  Chi Square, Correlación.
-- El modelo se ejecutó mediante Regresión Logística, por su rendimiento en los 5 CV, un mean square error de los más bajos dentro de la selección de modelos. Con un accuracy mayor a 75%, aceptable para la cantidad limitada de datos.
-- Con los coeficientes se utilizó la formula de regresión logistica, multiplicando el coeficiente por el valor otorgado. Las variables que mayor repercuten en son CHK_ACCT, DURATION, USED_CAR y GUARANTOR.
-- Se creo un Scorecard para fines de otorgamiento de crédito a nuevos clientes con las mejores variables.
-- Como validación del modelo se utilizo Gini, ROC Curve y KS, dando como resultado un 0.77 ROC AUC, KS= 48.59% y Gini de 0.55, considerandose aceptable en la predicción.
+## Predict Likelihood
 
-## Credit Cars
+El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad de incumplimiento utilizando un conjunto de datos limitado. Dadas las limitaciones, el proyecto empleó metodologías creativas y rigurosas para evaluar el rendimiento de las variables y optimizar la selección del modelo.
 
-- Un dataset con más de 65,000 aplicantes para evaluar la probabilidad de morosidad e igual, aplicar un Scorecard.
+## Metodologías y Técnicas
+
+### Evaluación de desempeño variable
+- **Test Chi-Cuadrado**: Se evaluó la independencia de variables.
+- **Correlación de Spearman**: Se evaluaron las relaciones monótonas entre variables.
+- **Valor de la Información (IV)**: Se determinó el poder predictivo de las variables.
+- **Bosque aleatorio, árboles de decisión, XGBoost**: Se utiliza para comprender la importancia y la interacción de las variables.
+
+### Detección y manejo de valores atípicos
+- **Rango intercuartil (IQR)**: umbral ampliado a 3,5 veces para identificar valores atípicos extremos.
+- **Histogramas y diagramas de caja**: visualización de la distribución de datos e identificación de posibles valores atípicos para su eliminación.
+
+### Análisis de los datos
+- **Gráficos de dispersión con líneas de regresión**: tendencias ilustradas, como la relación entre DURACIÓN y probabilidad de incumplimiento.
+- **Filtrado por edad**: Se excluyeron personas mayores de 67 años, categorizándolas como de alto riesgo.
+
+### Construcción y selección de modelos
+1. **Selección de variables**:
+    - Métodos: Chi-cuadrado, correlación, agrupamiento de variables, IV, selección hacia adelante, hacia atrás y por pasos.
+    - Ajuste de hiperparámetros: se utilizó GridSearchCV para encontrar los mejores parámetros para cada modelo.
+
+2. **Modelos utilizados**:
+    - Regresión logística
+    - Clasificador de bosque aleatorio
+    - Clasificador XGB
+    - Clasificador de aumento de gradiente
+    - Clasificador de árbol de decisión
+    - Clasificador AdaBoost
+    - Métodos de regularización: Lasso, Ridge, ElasticNet
+
+3. **División de datos**:
+    - División de entrenamiento/prueba: relación 70/30.
+    - Modelo Final: Regresión Logística elegida por su desempeño consistente y bajo error cuadrático medio en validación cruzada (CV).
+
+### Transformación de datos e ingeniería de funciones
+- **Peso de la evidencia (WOE)**: datos transformados para garantizar la monotonicidad.
+- **Impacto variable**: predictores clave identificados como CHK_ACCT, DURATION, USED_CAR y GUARANTOR.
+
+### Modelo de validación
+- **Métricas**: Curva ROC, Gini, KS, con resultados:
+   - AUC: 0,77
+   - KS: 48,59%
+   -Gini: 0,55
+- Se considera aceptable para el tamaño y la complejidad del conjunto de datos.
+
+### Creación de cuadro de mando
+- Desarrollé un cuadro de mando para la evaluación crediticia de nuevos clientes utilizando las variables más predictivas.
+
+## Conjunto de datos de crédito para vehiculos
+
+### Descripción general del conjunto de datos
+- Gran conjunto de datos con más de 65.000 solicitantes.
+- Objetivo: Evaluar la probabilidad de incumplimiento y desarrollar el cuadro de mando correspondiente.
+
+## AGG, corp.
+
+### Mejoras de eficiencia
+- **Módulos para automatización de tareas**: limpieza de datos, detección de valores atípicos y transformación de datos optimizados.
+- **Tiempo de procesamiento reducido**: Disminución significativa del tiempo dedicado a tareas rutinarias.
+- **Análisis bivariado y multivariado**: procesos de selección de variables mejorados mediante estadística inferencial.
+
+## Conclusión
+El proyecto "Predict Likelihood" superó con éxito los desafíos de los datos limitados mediante una evaluación integral de variables, una selección rigurosa de modelos y un uso eficaz de técnicas de transformación de datos. El desarrollo de un cuadro de mando y métricas de validación indican un enfoque sólido para predecir las probabilidades de incumplimiento, proporcionando una herramienta valiosa para la evaluación del riesgo crediticio. La implementación de módulos automatizados en AGG ejemplifica aún más el enfoque del proyecto en la eficiencia y precisión en el análisis de datos.
