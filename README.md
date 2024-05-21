@@ -46,7 +46,7 @@ El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad d
 - **Métricas**: Curva ROC, Gini, KS, con resultados:
    - AUC: 0,77
    - KS: 48,59%
-   -Gini: 0,55
+   - Gini: 0,55
 - Se considera aceptable para el tamaño y la complejidad del conjunto de datos.
 
 ### Creación de cuadro de mando
