@@ -36,8 +36,10 @@ def outlier(df,column):
 
 def isolation(df, column, contamination):
     data = df[[column]]
+    
     model = IsolationForest(contamination=contamination, random_state=0)
     model.fit(data)
+    
     outliers = model.predict(data)
     
     outliers_df = pd.DataFrame({'Outlier': outliers}, index=df.index)
