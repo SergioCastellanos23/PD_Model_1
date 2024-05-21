@@ -36,7 +36,7 @@ El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad d
 
 3. **División de datos**:
     - División de entrenamiento/prueba: relación 70/30.
-    - Modelo Final: Regresión Logística elegida por su desempeño consistente y bajo error cuadrático medio en validación cruzada (CV).
+    - Modelo Final: Regresión Logística elegida por su desempeño consistente.
 
 ### Transformación de datos e ingeniería de funciones
 - **Peso de la evidencia (WOE)**: datos transformados para garantizar la monotonicidad.
