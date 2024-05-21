@@ -63,7 +63,7 @@ El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad d
 ### Descripción general del conjunto de datos
 - Gran conjunto de datos con más de 65.000 solicitantes.
 - Objetivo: Evaluar la probabilidad de incumplimiento y desarrollar el cuadro de mando correspondiente.
-- Utilizamos los módulos en un gran dataset para evaluar su calidad y el tiempo de procesamiento.
+- Utilizamos los módulos evaluar su calidad y el tiempo de procesamiento en un dataset de gran dimensión.
 
 ## Conclusión
 El proyecto "Predict Likelihood" superó con éxito los desafíos de los datos limitados mediante una evaluación integral de variables, una selección rigurosa de modelos y un uso eficaz de técnicas de transformación de datos. El desarrollo de un cuadro de mando y métricas de validación indican un enfoque sólido para predecir las probabilidades de incumplimiento, proporcionando una herramienta valiosa para la evaluación del riesgo crediticio. La implementación de módulos automatizados en AGG ejemplifica aún más el enfoque del proyecto en la eficiencia y precisión en el análisis de datos.
