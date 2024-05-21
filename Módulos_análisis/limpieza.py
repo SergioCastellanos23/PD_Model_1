@@ -81,7 +81,7 @@ def knnimputer(df, method='knn'):
         raise ValueError("Metodo no soportado")
         
     imputed_num= imputer.fit_transform(df_num)
-    imputed_cat= imputer.fit_transofmr(df_cat)
+    imputed_cat= imputer.fit_transform(df_cat)
     
     df_imputed= pd.concat([imputed_num,imputed_cat],axis=1)
     
