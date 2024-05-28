@@ -55,7 +55,7 @@ El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad d
 ## Módulos análisis.
 
 ### Mejoras de eficiencia
-- **Módulos para automatización de tareas**: limpieza de datos, imputación de datos, detección de valores atípicos (Isolation Forest, rango intercuantil), transformación de variables categóricas y análisis bivariado - multivariado.
+- **Módulos para automatización de tareas**: limpieza de datos, imputación de datos, detección de valores atípicos (Isolation Forest, rango intercuantil), transformación de variables categóricas, análisis bivariado - multivariado y selección de variables con diferentes métodos..
 - **Tiempo de procesamiento reducido**: Disminución significativa del tiempo dedicado a tareas rutinarias en diversos proyectos simultaneamente.
 
 ## Credit Cars
