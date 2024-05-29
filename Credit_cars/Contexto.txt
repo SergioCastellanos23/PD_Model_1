@@ -1,0 +1,1 @@
+La primera parte es la limpieza de nuestros datos, utilizando el método Soft.
