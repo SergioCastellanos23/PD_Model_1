@@ -16,7 +16,6 @@ from fancyimpute import IterativeImputer
 
 # In[16]:
 
-
 def nan(df):
     result= df.isna().sum()
     return result
@@ -52,24 +51,38 @@ def removenan(df):
     return df
 
 
+def removecol(df):
+    nanper= df.isnull().mean()
+    
+    columns_keep= nanper[nanper<0.7].index
+    
+    df= df[columns_keep].reset_index(drop=True)
+    
+    return df
+
+
 # In[20]:
 
 
 def imputer(df,strategy='mean'):
     
+    df_cat= df.select_dtypes(exclude=['int64','float64','uint'])
+
     imputation= SimpleImputer(strategy=strategy)
     
-    df_imputed = pd.DataFrame(imputer.fit_transform(df), columns=df.columns)
+    df_imputed = pd.DataFrame(imputation.fit_transform(df_cat), columns=df_cat.columns)
     
-    return df_imputed
+    df_imput= pd.concat([df,df_imputed],axis=1)
+    
+    return df_imput
 
 
 # In[21]:
 
 
 def knnimputer(df, method='knn'):
-    df_num= df.select_dtypes(include=['int','float','uint'])
-    df_cat= df.select_dtypes(exclude=['int','float','uint'])
+    df_num= df.select_dtypes(include=['int64','float64','uint'])
+    df_cat= df.select_dtypes(exclude=['int64','float64','uint'])
     
     if method=='knn':
         imputer= KNN()
@@ -81,9 +94,11 @@ def knnimputer(df, method='knn'):
         raise ValueError("Metodo no soportado")
         
     imputed_num= imputer.fit_transform(df_num)
-    imputed_cat= imputer.fit_transform(df_cat)
+    imputed_num1 = pd.DataFrame(imputed_num, columns=df_num.columns)
+
+    #imputed_cat= imputer.fit_transform(df_cat)
     
-    df_imputed= pd.concat([imputed_num,imputed_cat],axis=1)
+    df_imputed= pd.concat([imputed_num1,df_cat],axis=1)
     
     return df_imputed
 
