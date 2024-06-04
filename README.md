@@ -51,19 +51,3 @@ El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad d
 
 ### Creación de cuadro de mando
 - Desarrollé un cuadro de mando para la evaluación crediticia de nuevos clientes utilizando las variables más predictivas.
-
-## Módulos análisis.
-
-### Mejoras de eficiencia
-- **Módulos para automatización de tareas**: limpieza de datos, imputación de datos, detección de valores atípicos (Isolation Forest, rango intercuantil), transformación de variables categóricas, análisis bivariado - multivariado y selección de variables con diferentes métodos..
-- **Tiempo de procesamiento reducido**: Disminución significativa del tiempo dedicado a tareas rutinarias en diversos proyectos simultaneamente.
-
-## Credit Cars
-
-### Descripción general del conjunto de datos
-- Gran conjunto de datos con más de 65.000 solicitantes.
-- Objetivo: Evaluar la probabilidad de incumplimiento y desarrollar el cuadro de mando correspondiente.
-- Utilizamos los módulos, evaluar su calidad y el tiempo de procesamiento en un dataset de gran dimensión.
-
-## Conclusión
-El proyecto "Predict Likelihood" superó con éxito los desafíos de los datos limitados mediante una evaluación integral de variables, una selección rigurosa de modelos y un uso eficaz de técnicas de transformación de datos. El desarrollo de un cuadro de mando y métricas de validación indican un enfoque sólido para predecir las probabilidades de incumplimiento, proporcionando una herramienta valiosa para la evaluación del riesgo crediticio. La implementación de módulos automatizados ejemplifica aún más el enfoque del proyecto en la eficiencia y precisión en el análisis de datos.
