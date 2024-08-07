@@ -12,8 +12,7 @@ El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad d
 - **Histogramas y diagramas de caja**: visualización de la distribución de datos e identificación de posibles valores atípicos para su eliminación.
 
 ### Análisis de los datos
-- **Gráficos de dispersión con líneas de regresión**: tendencias ilustradas, como la relación entre DURACIÓN y probabilidad de incumplimiento.
-- **Filtrado por edad**: Se excluyeron personas mayores de 67 años, categorizándolas como de alto riesgo.
+- **Gráficos de dispersión con líneas de regresión**: tendencias ilustradas, como la relación entre DURATION y DEFAULT.
 
 ### Selección de Variables
 - **Test Chi-Cuadrado**: Se evaluó la independencia de variables.
