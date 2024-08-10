@@ -21,4 +21,4 @@ El proyecto "Predict Likelihood" tenía como objetivo predecir la probabilidad d
 - **Bosque aleatorio, árboles de decisión, XGBoost**: Se utiliza para comprender la importancia y la interacción de las variables.
 
 ### Creación de Scorecard
-- Desarrollé un Scorecard para la evaluación crediticia de nuevos clientes utilizando las variables más predictivas.
+- Desarrollare un Scorecard para la evaluación crediticia de nuevos clientes utilizando las variables más predictivas.
